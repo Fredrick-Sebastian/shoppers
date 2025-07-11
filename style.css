@@ -1,0 +1,359 @@
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+    }
+
+    .hero-img{
+      align-content: center;
+      border-radius: 0 245px 250px 0;
+      background: #030303; 
+      width: 600px; 
+      margin-right: 150px;
+      }
+
+    .package{
+      width: 520px; 
+      height: 520px; 
+      border-radius: 250px; 
+      margin: 0; 
+      padding-right: 10px;
+    }
+
+    .hero-content{
+      align-content: center;
+      text-align: center;
+      width: 1000px;
+      height: 500px;
+      padding: 20px;
+      margin-right: 50px;
+    }
+
+    .hero-content h1 p{
+      padding: 20px;
+    }
+
+
+    header{
+      align-items: center;
+      justify-content: space-between;
+      display: flex;
+      background-color: #ffa600;
+      color: #000000;
+      height: 450px;
+    }
+
+
+
+    footer {
+      justify-content: space-between;
+      display: flex;
+      background-color: #000000;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      height: 70px;
+    }
+
+    .contain{
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+        margin: 0 50px;
+    }
+
+    .contain h2{
+      border-bottom: solid  black;
+      padding: 10px 100px;
+      margin: 20px 0;
+
+    }
+
+    .contai{
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+        margin: 0 50px;
+    }
+
+    .contai h2{
+      border-bottom: solid  black;
+      padding: 10px 100px;
+      margin: 20px 0;
+
+    }
+
+    .message{
+      margin-right: 50px;
+    }
+
+    .container{
+      display: flex;
+    }
+
+    .social-img{
+        width: auto;
+        height: 20px;
+        margin-left: 5px;
+    }
+    nav {
+      display: flex;
+      align-items: center;
+      justify-items: center;
+      justify-content: space-between;
+      background-color: #000;
+      padding: 10px;
+      height: 121px;
+      width: 100%;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    a:hover{
+      color: #ffa600;
+    }
+    .section {
+      padding: 40px 20px;
+    }
+    .services {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .service {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    form {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 40px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    input, textarea, select, button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: black;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .confirmation {
+      display: none;
+      padding: 20px;
+      margin: 10px 0;
+      background-color: #d4edda;
+      color: #155724;
+      border: 1px solid #c3e6cb;
+      border-radius: 4px;
+    }
+
+    .common{
+      margin-bottom: 100px;
+      background: white;
+    }
+
+    #both{
+      border-radius: 100px 200px;
+    }
+
+    .menu-toggle {
+      display: none;
+      font-size: 2rem;
+      color: white;
+      cursor: pointer;
+    }
+
+    #contac{
+      background: url(img/ict.jpg) no-repeat center center/cover;
+      height: 450px;
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #conta{
+      background: #ffd700;
+      height: 450px;
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .message img{
+      width: auto; 
+      height: 400px; 
+      border-radius: 20px;
+    }    
+    
+    .category{
+      width: 200px; 
+      height: 200px; 
+      border-radius: 100px 20px;     
+    }
+
+    #latest{
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      text-align: center;
+      justify-items: center;
+    }
+
+    #produc{
+      background: #ffa600;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      margin: 40px;
+      border-radius: 1000px 200px;
+      opacity: 0.9;
+    }
+
+    .create{
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      font-size: small;
+      color: #3a3030;
+    }
+
+    .goods{
+      text-align: center;
+    }
+
+    #submit{
+      display: flex;
+      justify-content: space-between;
+    }
+
+    #submit button{
+      margin-right: 50px;
+      padding: 10px 20px;
+    }
+
+    
+    @media (max-width: 768px) {
+    .menu-toggle {
+      display: block;
+    } 
+
+    #submit{
+      flex-direction: column;
+    }
+
+    #latest{
+      display: grid;
+      grid-template-columns: 1fr 1fr ;
+    }
+
+    .message img{
+      display: none;
+    }
+
+    #contac{
+      flex-direction: column;
+      height: 422px;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      justify-items: center;
+    }
+
+    #conta{
+      background: url(img/deliver.png) no-repeat center/cover;
+      flex-direction: column;
+      height: 422px;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      justify-items: center;
+    }
+
+    .contain{
+      margin: 0;
+      padding: 0;
+    }
+
+    .contai{
+      color: #ffffff;
+      background: #000;
+      margin: 0;
+      padding: 20px;
+      opacity: 0.7;
+    }   
+
+    .contai h2{
+      padding: 20px;
+    }
+
+    .contai button{
+      color: #000;
+      background: #ffa600;
+    }
+
+    .message{
+      margin: 0;
+      padding: 5px 20px;     
+    }
+ 
+    .nav-links{
+      display: none;
+      flex-direction: column;
+      background: #000;
+      position: absolute;
+      top: 80px;
+      right: 0;
+      width: 180px;
+      text-align: right;
+      padding: 1rem;
+      box-shadow: var(--shadow);
+    } 
+
+    .nav-links.active {
+    display: flex;
+  }
+
+    .hero-img{
+      margin-right: 10px;
+      } 
+      
+    .package{
+      width: 300px; 
+      height: 300px; 
+      padding-right: 10px;
+    }
+
+    header{
+      height: 410px;
+    }   
+
+    }
+
+
+
+
+
