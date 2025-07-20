@@ -343,7 +343,7 @@
 
     #contac{
       flex-direction: column;
-      height: 449px;
+      height: 550px;
       justify-content: center;
       align-items: center;
       align-content: center;
@@ -353,7 +353,7 @@
     #conta{
       background: url(img/deliver.png) no-repeat center/cover;
       flex-direction: column;
-      height: 449px;
+      height: 550px;
       justify-content: center;
       align-items: center;
       align-content: center;
@@ -466,7 +466,7 @@
     }
 
     header{
-      height: 449px;
+      height: 550px;
       justify-content: center;
       justify-items: center;
       align-items: center;
