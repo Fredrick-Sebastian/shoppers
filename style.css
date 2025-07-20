@@ -386,6 +386,10 @@
       margin: 0;
       padding: 5px 20px;     
     }
+
+    nav{
+      height: 100px;
+    }
  
     .nav-links{
       display: none;
@@ -466,6 +470,7 @@
     }
 
     header{
+      padding: 10px 0 0 50px;
       height: 550px;
       justify-content: center;
       justify-items: center;
