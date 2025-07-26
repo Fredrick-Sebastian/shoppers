@@ -258,22 +258,13 @@
     .logo-login{
     width: 100px;
     height: 100px;
-    margin: auto;
-    padding: 0;
-    padding-top: 100px;
-}
-
-.logo-login img{
-    width: 100px;
-    height: 100px;
+   
 }
 
 .form2{
-    width: 500px;
-    margin-top: 30px;
-    margin: auto;
+    width: 200px;
 }
-
+/*
 .form2 input, .form2 select{
     width: 100%;
     padding: 10px;
@@ -296,10 +287,10 @@
     cursor: pointer;
     opacity: 0.7;
 }
+*/
 
 
-
-        .hero-links{
+    .hero-links{
       display: none;
       flex-direction: column;
       background: #000;
@@ -307,7 +298,7 @@
       top: 80px;
       right: 0;
       width: 180px;
-      text-align: left;
+      text-align: center;
       padding: 1rem;
       box-shadow: var(--shadow);
       z-index: 1;
@@ -318,15 +309,55 @@
       margin: 0 15px;
       text-decoration: none;
     }
-    
-   .nav-links.active {
+
+  .support{
+    background: #ffa600;
+    width: 500px;
+    height: 641px;
     display: flex;
   }
 
+  .exit{
+    float: right;
+    background: #740303;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+    border-radius: 0 20px 0 0;
+  }
+
+  .logo-login{
+    background: #ffa600;
+    width: 300px;
+    height: 500px;
+    margin:100px 0 0 100px;
+    z-index: 1;
+    border-radius: 20px;
+    justify-items: center;
+    box-shadow: 0 5px 10px rgba(93, 93, 93, 0.671);
+  }
+
+  .logo-logi{
+    background: #ffffff;
+    width: 300px;
+    height: 500px;
+    margin: 50px 0 0 350px;
+    z-index: 1;
+    border-radius: 20px;
+    justify-items: center;
+    box-shadow: 0 5px 10px rgba(93, 93, 93, 0.671);
+  }
+
+  
     @media (max-width: 768px) {
     .menu-toggle {
       display: block;
     } 
+
+    .support{
+      height: 550px;
+    }
 
     #submit{
       flex-direction: column;
